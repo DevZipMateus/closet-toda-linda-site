@@ -1,6 +1,6 @@
 
 import React, { useState, useEffect } from 'react';
-import { MessageCircle, X } from 'lucide-react';
+import { MessageCircle, X, Heart } from 'lucide-react';
 
 const WhatsAppFloat = () => {
   const [isVisible, setIsVisible] = useState(false);
