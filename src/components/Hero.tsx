@@ -34,73 +34,73 @@ const Hero = () => {
             <img 
               src="/lovable-uploads/906e85e1-5297-457b-8099-b330ba850469.png" 
               alt="Closet Toda Linda - Moda Feminina com Elegância e Estilo"
-              className="h-32 md:h-40 lg:h-48 w-auto mx-auto mb-6 drop-shadow-lg"
+              className="h-24 sm:h-32 md:h-40 lg:h-48 w-auto mx-auto mb-4 sm:mb-6 drop-shadow-lg"
             />
           </div>
 
           {/* Hero Text */}
           <div className="mb-8 animate-fade-in-up" style={{animationDelay: '0.2s'}}>
-            <h1 className="text-4xl md:text-6xl lg:text-7xl font-display font-bold mb-6">
+            <h1 className="text-3xl sm:text-4xl md:text-6xl lg:text-7xl font-display font-bold mb-4 sm:mb-6">
               <span className="text-gradient-primary">Estilo que</span>{' '}
               <span className="text-foreground">Inspira</span>
-              <Heart className="inline-block w-8 h-8 md:w-12 md:h-12 text-primary ml-4 animate-pulse" />
+              <Heart className="inline-block w-6 h-6 sm:w-8 sm:h-8 md:w-12 md:h-12 text-primary ml-2 sm:ml-4 animate-pulse" />
             </h1>
             
-            <p className="text-xl md:text-2xl lg:text-3xl text-muted-foreground mb-4 font-light">
+            <p className="text-lg sm:text-xl md:text-2xl lg:text-3xl text-muted-foreground mb-3 sm:mb-4 font-light">
               Moda feminina com <span className="text-primary font-medium">elegância</span> e <span className="text-primary font-medium">qualidade</span>
             </p>
             
-            <p className="text-lg md:text-xl text-muted-foreground max-w-2xl mx-auto leading-relaxed">
+            <p className="text-base sm:text-lg md:text-xl text-muted-foreground max-w-2xl mx-auto leading-relaxed px-4">
               Proporcionando confiança e estilo em cada detalhe. Descubra peças únicas que realçam sua personalidade e elegância natural.
             </p>
           </div>
 
           {/* CTA Buttons */}
-          <div className="flex flex-col sm:flex-row gap-6 justify-center items-center animate-fade-in-up" style={{animationDelay: '0.4s'}}>
+          <div className="flex flex-col sm:flex-row gap-4 sm:gap-6 justify-center items-center animate-fade-in-up px-4" style={{animationDelay: '0.4s'}}>
             <Button 
               onClick={scrollToContact}
               size="lg"
-              className="btn-hero-primary rounded-full px-8 py-4 text-lg shadow-2xl hover:scale-105 transform transition-all duration-300"
+              className="btn-hero-primary rounded-full px-6 sm:px-8 py-3 sm:py-4 text-base sm:text-lg shadow-2xl hover:scale-105 transform transition-all duration-300 w-full sm:w-auto"
             >
-              <Sparkles className="w-5 h-5 mr-2" />
-              Conheça Nosso Atendimento
-              <ArrowRight className="w-5 h-5 ml-2" />
+              <Sparkles className="w-4 h-4 sm:w-5 sm:h-5 mr-2" />
+              <span className="whitespace-nowrap">Conheça Nosso Atendimento</span>
+              <ArrowRight className="w-4 h-4 sm:w-5 sm:h-5 ml-2" />
             </Button>
             
             <Button 
               onClick={scrollToAbout}
               size="lg" 
               variant="outline"
-              className="btn-hero-outline rounded-full px-8 py-4 text-lg hover:scale-105 transform transition-all duration-300"
+              className="btn-hero-outline rounded-full px-6 sm:px-8 py-3 sm:py-4 text-base sm:text-lg hover:scale-105 transform transition-all duration-300 w-full sm:w-auto"
             >
-              Sobre o Closet Toda Linda
+              <span className="whitespace-nowrap">Sobre o Closet Toda Linda</span>
             </Button>
           </div>
 
           {/* Features Highlight */}
-          <div className="mt-16 grid grid-cols-1 md:grid-cols-3 gap-8 animate-fade-in-up" style={{animationDelay: '0.6s'}}>
+          <div className="mt-12 sm:mt-16 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 sm:gap-8 animate-fade-in-up px-4" style={{animationDelay: '0.6s'}}>
             <div className="text-center">
-              <div className="w-16 h-16 bg-primary/10 rounded-full flex items-center justify-center mx-auto mb-4">
-                <Heart className="w-8 h-8 text-primary" />
+              <div className="w-12 h-12 sm:w-16 sm:h-16 bg-primary/10 rounded-full flex items-center justify-center mx-auto mb-3 sm:mb-4">
+                <Heart className="w-6 h-6 sm:w-8 sm:h-8 text-primary" />
               </div>
-              <h3 className="font-display font-semibold text-lg mb-2">Atendimento Personalizado</h3>
-              <p className="text-muted-foreground">Auxílio especializado na escolha do look ideal para cada ocasião</p>
+              <h3 className="font-display font-semibold text-base sm:text-lg mb-2">Atendimento Personalizado</h3>
+              <p className="text-muted-foreground text-sm sm:text-base">Auxílio especializado na escolha do look ideal para cada ocasião</p>
             </div>
             
             <div className="text-center">
-              <div className="w-16 h-16 bg-primary/10 rounded-full flex items-center justify-center mx-auto mb-4">
-                <Sparkles className="w-8 h-8 text-primary" />
+              <div className="w-12 h-12 sm:w-16 sm:h-16 bg-primary/10 rounded-full flex items-center justify-center mx-auto mb-3 sm:mb-4">
+                <Sparkles className="w-6 h-6 sm:w-8 sm:h-8 text-primary" />
               </div>
-              <h3 className="font-display font-semibold text-lg mb-2">Novidades Exclusivas</h3>
-              <p className="text-muted-foreground">Clientes fiéis recebem lançamentos e novidades em primeira mão</p>
+              <h3 className="font-display font-semibold text-base sm:text-lg mb-2">Novidades Exclusivas</h3>
+              <p className="text-muted-foreground text-sm sm:text-base">Clientes fiéis recebem lançamentos e novidades em primeira mão</p>
             </div>
             
-            <div className="text-center">
-              <div className="w-16 h-16 bg-primary/10 rounded-full flex items-center justify-center mx-auto mb-4">
-                <div className="w-8 h-8 text-primary font-script text-2xl flex items-center justify-center">♛</div>
+            <div className="text-center sm:col-span-2 lg:col-span-1">
+              <div className="w-12 h-12 sm:w-16 sm:h-16 bg-primary/10 rounded-full flex items-center justify-center mx-auto mb-3 sm:mb-4">
+                <div className="w-6 h-6 sm:w-8 sm:h-8 text-primary font-script text-xl sm:text-2xl flex items-center justify-center">♛</div>
               </div>
-              <h3 className="font-display font-semibold text-lg mb-2">Elegância & Qualidade</h3>
-              <p className="text-muted-foreground">Peças selecionadas que proporcionam confiança e estilo únicos</p>
+              <h3 className="font-display font-semibold text-base sm:text-lg mb-2">Elegância & Qualidade</h3>
+              <p className="text-muted-foreground text-sm sm:text-base">Peças selecionadas que proporcionam confiança e estilo únicos</p>
             </div>
           </div>
         </div>

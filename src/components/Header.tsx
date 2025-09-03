@@ -34,7 +34,7 @@ const Header = () => {
             <img 
               src="/lovable-uploads/906e85e1-5297-457b-8099-b330ba850469.png" 
               alt="Closet Toda Linda - Moda Feminina Elegante"
-              className="h-12 w-auto"
+              className="h-10 sm:h-12 md:h-14 w-auto"
             />
           </div>
 
@@ -98,7 +98,7 @@ const Header = () => {
 
         {/* Mobile Menu */}
         {isMenuOpen && (
-          <div className="md:hidden bg-white/95 backdrop-blur-md border-t border-border/50 animate-fade-in">
+          <div className="md:hidden bg-white/95 backdrop-blur-md border-t border-border/50 animate-fade-in absolute left-0 right-0 top-full shadow-lg z-40">
             <div className="py-6 space-y-4">
               <button 
                 onClick={() => scrollToSection('home')}

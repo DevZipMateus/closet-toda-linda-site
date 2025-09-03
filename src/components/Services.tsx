@@ -41,12 +41,12 @@ const Services = () => {
           <div className="text-center mb-16 animate-on-scroll">
             <div className="flex justify-center items-center mb-6">
               <Sparkles className="w-8 h-8 text-accent mr-3" />
-              <h2 className="text-3xl md:text-4xl lg:text-5xl font-display font-bold text-gradient-primary">
+              <h2 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-display font-bold text-gradient-primary">
                 Nossos Serviços Exclusivos
               </h2>
               <Sparkles className="w-8 h-8 text-accent ml-3" />
             </div>
-            <p className="text-xl text-muted-foreground max-w-3xl mx-auto leading-relaxed">
+            <p className="text-lg sm:text-xl text-muted-foreground max-w-3xl mx-auto leading-relaxed px-4">
               Experiências personalizadas que transformam sua relação com a moda
             </p>
           </div>
@@ -61,7 +61,7 @@ const Services = () => {
                     <Heart className="w-8 h-8 text-white" />
                   </div>
                   <div>
-                    <h3 className="text-2xl font-display font-semibold text-foreground">
+                    <h3 className="text-xl sm:text-2xl font-display font-semibold text-foreground">
                       Atendimento Personalizado
                     </h3>
                     <p className="text-primary font-medium">Consultoria de Estilo Individual</p>
@@ -103,7 +103,7 @@ const Services = () => {
                     <Gift className="w-8 h-8 text-white" />
                   </div>
                   <div>
-                    <h3 className="text-2xl font-display font-semibold text-foreground">
+                    <h3 className="text-xl sm:text-2xl font-display font-semibold text-foreground">
                       Novidades Exclusivas
                     </h3>
                     <p className="text-primary font-medium">Acesso Prioritário</p>
@@ -143,7 +143,7 @@ const Services = () => {
             <div className="card-gradient p-8 rounded-3xl">
               <div className="text-center mb-8">
                 <Crown className="w-12 h-12 text-primary mx-auto mb-4" />
-                <h3 className="text-2xl md:text-3xl font-display font-bold text-foreground mb-2">
+                <h3 className="text-xl sm:text-2xl md:text-3xl font-display font-bold text-foreground mb-2">
                   Experiência Completa
                 </h3>
                 <p className="text-muted-foreground">

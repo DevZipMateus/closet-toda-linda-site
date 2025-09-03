@@ -33,12 +33,12 @@ const About = () => {
           <div className="text-center mb-16 animate-on-scroll">
             <div className="flex justify-center items-center mb-6">
               <Crown className="w-8 h-8 text-accent mr-3" />
-              <h2 className="text-3xl md:text-4xl lg:text-5xl font-display font-bold text-gradient-primary">
+              <h2 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-display font-bold text-gradient-primary">
                 Sobre o Closet Toda Linda
               </h2>
               <Crown className="w-8 h-8 text-accent ml-3" />
             </div>
-            <p className="text-xl text-muted-foreground max-w-3xl mx-auto leading-relaxed">
+            <p className="text-lg sm:text-xl text-muted-foreground max-w-3xl mx-auto leading-relaxed px-4">
               Uma boutique dedicada a realçar a beleza e elegância feminina através de peças cuidadosamente selecionadas
             </p>
           </div>
@@ -47,7 +47,7 @@ const About = () => {
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 items-center mb-16">
             {/* Text Content */}
             <div className="animate-on-scroll">
-              <h3 className="text-2xl md:text-3xl font-display font-semibold mb-6 text-foreground">
+              <h3 className="text-xl sm:text-2xl md:text-3xl font-display font-semibold mb-4 sm:mb-6 text-foreground">
                 Nossa Missão é Especial
               </h3>
               <div className="prose prose-lg max-w-none">

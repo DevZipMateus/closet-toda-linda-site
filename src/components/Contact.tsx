@@ -172,7 +172,7 @@ const Contact = () => {
                   loading="lazy"
                   referrerPolicy="no-referrer-when-downgrade"
                   title="Localização do Closet Toda Linda"
-                  className="w-full h-full min-h-[450px]"
+                  className="w-full h-full min-h-[350px] sm:min-h-[400px] md:min-h-[450px]"
                 ></iframe>
               </div>
             </div>

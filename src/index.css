@@ -132,11 +132,11 @@
 
   /* Section Spacing */
   .section-padding {
-    @apply py-16 md:py-24 lg:py-32;
+    @apply py-12 sm:py-16 md:py-24 lg:py-32;
   }
   
   .container-padding {
-    @apply px-4 md:px-6 lg:px-8;
+    @apply px-3 sm:px-4 md:px-6 lg:px-8;
   }
 
   /* Animations */
