@@ -60,7 +60,8 @@ const Contact = () => {
                     </div>
                     <div>
                       <h4 className="font-semibold text-foreground mb-1">Endereço</h4>
-                      <p className="text-muted-foreground">Rua João Batista de Castilhos 147</p>
+                       <p className="text-muted-foreground">R. João Batista de Castilhos, 147</p>
+                       <p className="text-muted-foreground">Vila Ré, Quaraí - RS, 97560-000</p>
                     </div>
                   </div>
 
@@ -163,7 +164,7 @@ const Contact = () => {
             <div className="animate-on-scroll">
               <div className="card-elegant p-2 h-full">
                 <iframe
-                  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3456.123456789!2d-53.123456!3d-29.123456!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2sRua%20Jo%C3%A3o%20Batista%20de%20Castilhos%20147!5e0!3m2!1spt-BR!2sbr!4v1234567890"
+                  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3360.6!2d-56.4526!3d-30.3878!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95a04b9e5b4a7777%3A0x8a8a8a8a8a8a8a8a!2sR.%20Jo%C3%A3o%20Batista%20de%20Castilhos%2C%20147%20-%20Vila%20R%C3%A9%2C%20Quara%C3%AD%20-%20RS%2C%2097560-000%2C%20Brazil!5e0!3m2!1spt-BR!2sbr!4v1734968400000"
                   width="100%"
                   height="450"
                   style={{ border: 0, borderRadius: '12px' }}
