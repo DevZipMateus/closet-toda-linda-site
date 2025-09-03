@@ -47,8 +47,8 @@ const Contact = () => {
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12">
             {/* Contact Information */}
             <div className="animate-on-scroll">
-              <div className="card-elegant p-8">
-                <h3 className="text-2xl font-display font-semibold mb-6 text-foreground">
+              <div className="card-elegant p-6 sm:p-8">
+                <h3 className="text-xl sm:text-2xl font-display font-semibold mb-4 sm:mb-6 text-foreground">
                   Informações de Contato
                 </h3>
                 
@@ -60,9 +60,9 @@ const Contact = () => {
                     </div>
                     <div>
                       <h4 className="font-semibold text-foreground mb-1">Endereço</h4>
-                       <p className="text-muted-foreground">R. João Batista de Castilhos, 147</p>
-                       <p className="text-muted-foreground">Vila Ré, Quaraí - RS, 97560-000</p>
-                    </div>
+                       <p className="text-muted-foreground text-sm sm:text-base break-words">R. João Batista de Castilhos, 147</p>
+                       <p className="text-muted-foreground text-sm sm:text-base break-words">Vila Ré, Quaraí - RS, 97560-000</p>
+                     </div>
                   </div>
 
                   {/* Phone */}
@@ -72,11 +72,11 @@ const Contact = () => {
                     </div>
                     <div>
                       <h4 className="font-semibold text-foreground mb-1">Telefone</h4>
-                      <a 
-                        href="tel:+5555996239472" 
-                        className="text-muted-foreground hover:text-primary transition-colors"
-                      >
-                        (55) 99623-9472
+                       <a 
+                         href="tel:+5555996239472" 
+                         className="text-muted-foreground hover:text-primary transition-colors text-sm sm:text-base break-words"
+                       >
+                         (55) 99623-9472
                       </a>
                     </div>
                   </div>
@@ -88,11 +88,11 @@ const Contact = () => {
                     </div>
                     <div>
                       <h4 className="font-semibold text-foreground mb-1">Email</h4>
-                      <a 
-                        href="mailto:rafaeladeoliveirastefani@gmail.com" 
-                        className="text-muted-foreground hover:text-primary transition-colors"
-                      >
-                        rafaeladeoliveirastefani@gmail.com
+                       <a 
+                         href="mailto:rafaeladeoliveirastefani@gmail.com" 
+                         className="text-muted-foreground hover:text-primary transition-colors text-sm sm:text-base break-all"
+                       >
+                         rafaeladeoliveirastefani@gmail.com
                       </a>
                     </div>
                   </div>
@@ -104,11 +104,11 @@ const Contact = () => {
                     </div>
                     <div>
                       <h4 className="font-semibold text-foreground mb-1">Horário de Funcionamento</h4>
-                      <div className="text-muted-foreground space-y-1">
-                        <p>Segunda à Sexta: 08:30 às 19:00</p>
-                        <p>Sábado: 09:00 às 19:00</p>
-                        <p>Domingo: Fechado</p>
-                      </div>
+                       <div className="text-muted-foreground space-y-1 text-sm sm:text-base">
+                         <p>Segunda à Sexta: 08:30 às 19:00</p>
+                         <p>Sábado: 09:00 às 19:00</p>
+                         <p>Domingo: Fechado</p>
+                       </div>
                     </div>
                   </div>
 
@@ -119,14 +119,14 @@ const Contact = () => {
                     </div>
                     <div>
                       <h4 className="font-semibold text-foreground mb-1">Redes Sociais</h4>
-                      <a 
-                        href="https://www.instagram.com/clo.settodalinda" 
-                        target="_blank" 
-                        rel="noopener noreferrer"
-                        className="text-muted-foreground hover:text-primary transition-colors inline-flex items-center"
-                      >
-                        @clo.settodalinda
-                        <Instagram className="w-4 h-4 ml-2" />
+                       <a 
+                         href="https://www.instagram.com/clo.settodalinda" 
+                         target="_blank" 
+                         rel="noopener noreferrer"
+                         className="text-muted-foreground hover:text-primary transition-colors inline-flex items-center text-sm sm:text-base break-words"
+                       >
+                         @clo.settodalinda
+                         <Instagram className="w-4 h-4 ml-2 flex-shrink-0" />
                       </a>
                     </div>
                   </div>
