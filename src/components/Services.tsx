@@ -183,14 +183,14 @@ const Services = () => {
                 </div>
               </div>
               
-              <div className="text-center mt-8">
+              <div className="text-center mt-6 sm:mt-8 px-4">
                 <Button 
                   onClick={scrollToContact}
                   size="lg"
-                  className="btn-hero-primary rounded-full px-8 py-4 text-lg shadow-lg hover:scale-105 transform transition-all duration-300"
+                  className="btn-hero-primary rounded-full px-6 sm:px-8 py-3 sm:py-4 text-base sm:text-lg shadow-lg hover:scale-105 transform transition-all duration-300 w-full sm:w-auto max-w-xs mx-auto"
                 >
-                  <Heart className="w-5 h-5 mr-2" />
-                  Agende Seu Atendimento
+                  <Heart className="w-4 h-4 sm:w-5 sm:h-5 mr-2" />
+                  <span className="whitespace-nowrap">Agende Seu Atendimento</span>
                 </Button>
               </div>
             </div>
