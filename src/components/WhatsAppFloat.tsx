@@ -55,13 +55,15 @@ const WhatsAppFloat = () => {
 
       {/* Floating Button */}
       <div className="relative">
-        <button
-          onClick={toggleExpanded}
+        <a
+          href="https://wa.me/5555996239472"
+          target="_blank"
+          rel="noopener noreferrer"
           className="w-14 h-14 bg-green-500 hover:bg-green-600 text-white rounded-full shadow-2xl flex items-center justify-center transition-all duration-300 hover:scale-110 animate-pulse"
           aria-label="Abrir chat do WhatsApp"
         >
           <MessageCircle size={24} />
-        </button>
+        </a>
         
         {/* Pulse Animation */}
         <div className="absolute inset-0 bg-green-500 rounded-full animate-ping opacity-20"></div>
