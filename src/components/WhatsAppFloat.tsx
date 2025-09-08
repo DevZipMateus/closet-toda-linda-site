@@ -66,8 +66,8 @@ const WhatsAppFloat = () => {
         </a>
         
         {/* Pulse Animation */}
-        <div className="absolute inset-0 bg-green-500 rounded-full animate-ping opacity-20"></div>
-        <div className="absolute inset-0 bg-green-500 rounded-full animate-ping opacity-10" style={{animationDelay: '0.5s'}}></div>
+        <div className="absolute inset-0 bg-green-500 rounded-full animate-ping opacity-20 pointer-events-none"></div>
+        <div className="absolute inset-0 bg-green-500 rounded-full animate-ping opacity-10 pointer-events-none" style={{animationDelay: '0.5s'}}></div>
       </div>
     </div>
   );
